@@ -68,4 +68,6 @@ it will return the user secret with success message. store it in your database f
 ```
 Push::notify($user_secret, $text, $image)
 ```
+#Example
 
+You can find my laravel demo application <a href="https://github.com/rtamizh/push_notification_demo"> here </a>
