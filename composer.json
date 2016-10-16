@@ -3,7 +3,7 @@
     "description": "Api package to push notifications using realtime pusher node.js application with socket.io",
     "version": "1.0.0",
     "type": "library",
-    "keywords": ["Push Notification", "Laravel", "Notification", "Realtime notification"],
+    "keywords": ["Notification", "Laravel", "Notification", "Realtime"],
     "license": "MIT",
     "authors": [
         {
