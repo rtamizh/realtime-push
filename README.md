@@ -25,12 +25,13 @@ Add the service provider to your config/app.php file:
 
 Add the facade to your config/app.php file:
 
-``` 'facades'       => array(
+``` 
+        'facades'       => array(
 
-        //...
-        'Push'          => Realtime\Push\Facades\RealtimePusher::class,
+                //...
+                'Push'          => Realtime\Push\Facades\RealtimePusher::class,
 
-    ), 
+        ), 
 ```
     
 Publish config file using ``` php artisan vendor:publish ```
@@ -49,19 +50,21 @@ As of now the text and image variables available in the server, soon it will be 
 
 #Functions
 
-1. createApp - to create app in notification server
+1.createApp - to create app in notification server
 ```
 Push::createApp('test')
 ```
 it will return a secert_id with success response. store or add it to the config file for creating users for this app
 
-2. createUser - to create User in notification server
+
+2.createUser - to create User in notification server
 ```
 Push::createUser('name', 'password')
 ```
 it will return the user secret with success message. store it in your database for sending notification to this user
 
-3. notify - to create and send it to the respective user
+
+3.notify - to create and send it to the respective user
 ```
 Push::notify($user_secret, $text, $image)
 ```
