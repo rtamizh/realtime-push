@@ -66,7 +66,7 @@
 			return $response;
 		}
 
-		public function createNotification($user_secret, $text, $image=null, $link=null)
+		public function Notify($user_secret, $text, $image=null, $link=null)
 		{
 			$data = array(
 				'app_secret' => $this->pconfig['app_secret_id'],

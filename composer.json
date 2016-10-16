@@ -10,7 +10,7 @@
         }
     ],
     "autoload": {
-        "Realtime\\Push\\": "packages/realtime/push/src"
+        "Realtime\\Push\\": "src/"
     },
     "minimum-stability": "dev",
     "require": {
