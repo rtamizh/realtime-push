@@ -1,7 +1,9 @@
 {
     "name": "tamizh/realtime-push",
     "description": "Api package to push notifications using realtime pusher node.js application with socket.io",
+    "version": "1.0.0",
     "type": "library",
+    "keywords": ["Notification", "Laravel", "Notification", "Realtime"],
     "license": "MIT",
     "authors": [
         {
@@ -10,9 +12,13 @@
         }
     ],
     "autoload": {
-        "Realtime\\Push\\": "src/"
+        "psr-0": {
+            "Realtime\\Push\\": "src/"
+        }
     },
     "minimum-stability": "dev",
     "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=4.0"
     }
 }
