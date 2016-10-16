@@ -12,7 +12,9 @@
         }
     ],
     "autoload": {
-        "Realtime\\Push\\": "src/"
+        "psr-0": {
+            "Realtime\\Push\\": "src/"
+        }
     },
     "minimum-stability": "dev",
     "require": {
