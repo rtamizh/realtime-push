@@ -39,7 +39,6 @@
 
 			$server_output = curl_exec($ch);
 			$server_output = json_decode($server_output, TRUE);
-			dd($server_output);
 
 			curl_close($ch);
 
